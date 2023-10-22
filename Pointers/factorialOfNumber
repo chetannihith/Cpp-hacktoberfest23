@@ -1,0 +1,25 @@
+#include <iostream>
+
+void findFactorial(int num, unsigned long long* result) {
+    *result = 1;
+    for (int i = 1; i <= num; i++) {
+        *result *= i;
+    }
+}
+
+int main() {
+    int num;
+    unsigned long long factorial;
+
+    std::cout << "Enter a number: ";
+    std::cin >> num;
+
+    if (num < 0) {
+        std::cout << "Factorial is not defined for negative numbers." << std::endl;
+    } else {
+        findFactorial(num, &factorial);
+        std::cout << "Factorial of " << num << " = " << factorial << std::endl;
+    }
+
+    return 0;
+}

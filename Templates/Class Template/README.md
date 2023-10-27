@@ -1,0 +1,6 @@
+- [x] [q1](q1.cpp): WAP to find MAX value of array with default argument with class template.
+- [x] [q2](q2.cpp): WAP to show use of multiple template.
+- [x] [q3](q3.cpp): WAP to show template and non template argument.
+- [x] [q4](q4.cpp): WAP to find maximum and minimum value of an array using class template.
+- [x] [q5](q5.cpp): WAP to demonstrate different functions of vector and reverse() which is algorithm.
+- [x] [q6](q6.cpp): WAP to compare 2 values using function template and display largest value. Check your program for char, int and float type data.
